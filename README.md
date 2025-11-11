@@ -18,8 +18,8 @@ Blockchain se koristi isključivo za proveru autentičnosti i integriteta komuni
 EncryptedMessenger-DApp/
 │
 ├── DAppMessenger/ # Backend (Hardhat + pametni ugovor)
-│ ├── contracts/ # Solidity ugovori
-│ ├── scripts/ # Deploy i pomoćne skripte
+│ ├── contracts/ # Solidity ugovor
+│ ├── scripts/ # Deploy
 │ ├── test/ # Automatizovani testovi
 │ ├── hardhat.config.ts # Konfiguracija Hardhat okruženja
 │ └── package.json
