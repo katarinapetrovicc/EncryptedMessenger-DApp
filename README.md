@@ -14,20 +14,23 @@ Cilj projekta je razvoj decentralizovane aplikacije (DApp) koja omogućava:
 Blockchain se koristi isključivo za proveru autentičnosti i integriteta komunikacije, dok se sadržaj poruka čuva lokalno kod korisnika.
 
 ## Struktura projekta
+ ```
 EncryptedMessenger-DApp/
-  DAppMessenger/ Backend (Hardhat + pametni ugovor)
-    contracts/  Solidity ugovori
-    scripts/  Deploy 
-    test/  Automatizovani testovi
-    hardhat.config.ts/ Konfiguracija Hardhat okruženja
-    package.json
-
-  dapp-frontend/ # Frontend (React + Ethers.js)
-    src/ # Komponente, logika enkripcije i UI
-    public/
-    package.json  
-    
-  README.md # Opis projekta
+│
+├── DAppMessenger/ # Backend (Hardhat + pametni ugovor)
+│ ├── contracts/ # Solidity ugovori
+│ ├── scripts/ # Deploy i pomoćne skripte
+│ ├── test/ # Automatizovani testovi
+│ ├── hardhat.config.ts # Konfiguracija Hardhat okruženja
+│ └── package.json
+│
+├── dapp-frontend/ # Frontend (React + Ethers.js)
+│ ├── src/ # Komponente, logika enkripcije i UI
+│ ├── public/
+│ └── package.json
+│
+└── README.md # Opis projekta
+ ```
 
 ## Preduslovi
 Pre nego što se pokrene projekat, potrebno je imati instalirano:
