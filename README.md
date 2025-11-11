@@ -39,8 +39,6 @@ Pre nego što se pokrene projekat, potrebno je imati instalirano:
 - [Git](https://git-scm.com/)
 
 
-## Instalacija i pokretanje projekta
-
 ## Klonirati repozitorijum
 ```bash
 git clone https://github.com/katarinapetrovicc/EncryptedMessenger-DApp.git
